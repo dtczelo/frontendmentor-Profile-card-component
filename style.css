@@ -43,6 +43,7 @@ main section {
     grid-template-rows: 1fr auto;
     border-radius: 20px;
     background-color: rgb(234, 234, 238);
+    box-shadow: 5px 5px 50px rgba(0,0,0,.2);
     overflow: hidden;
 }
 
