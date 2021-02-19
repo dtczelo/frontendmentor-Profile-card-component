@@ -37,18 +37,14 @@ main {
 
 main section {
     position: relative;
-    width: 380px;
-    height: 400px;
+    width: 360px;
+    height: 380px;
     display: grid;
     grid-template-rows: 1fr auto;
     border-radius: 20px;
     background-color: rgb(234, 234, 238);
     box-shadow: 5px 5px 50px rgba(0,0,0,.2);
     overflow: hidden;
-}
-
-.user {
-
 }
 
 .user .bg-img {
@@ -115,4 +111,20 @@ main section {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    main section {
+        width: 300px;
+        height: 340px;
+    }
+    .img-top {
+        top: -650px;
+        left: -650px;
+    }
+    
+    .img-bottom {
+        bottom: -650px;
+        right: -650px;
+    }
 }
